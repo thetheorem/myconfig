@@ -1,10 +1,23 @@
-# For projects using Nanoc (http://nanoc.ws/)
+# Compiled python files
+*.pyc
 
-# Default location for output (needs to match output_dir's value found in nanoc.yaml)
-output/
+# Folder view configuration files
+.DS_Store
+Desktop.ini
 
-# Temporary file directory
-tmp/nanoc/
+# Thumbnail cache files
+._*
+Thumbs.db
 
-# Crash Log
-crash.log
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+.atom-build.json
+
+.rvmrc
+*.swp
+
+.idea
+*.sublime-workspace
+*.sublime-project
